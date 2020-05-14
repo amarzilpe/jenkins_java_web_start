@@ -3,6 +3,7 @@
 #JNLP anables as application to be lauch on the client machine by 
 #using the resources that are hosted on the remote web server.
 #=> Manage Jenkins>Configure Globle security>Agents>Random>Save.
-#=> Go to nodes>add node> Method> Java web start>save 
-
-Note:some jenkins version dont have java web start method.
+#=> Go to nodes>add node> Method> Java web start>save.
+# Download Agent.jar file and copy it to slave machine any location(~/home). copy using Filezilla software
+# copy command from jenkins node and run the command where your Agent.jar file is present.
+# Note:some jenkins version dont have java web start method.
