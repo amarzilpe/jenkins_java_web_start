@@ -1,0 +1,8 @@
+#JNLP=>Java Network Launch Protocol
+#To configure agent via Java web start method.
+#JNLP anables as application to be lauch on the client machine by 
+#using the resources that are hosted on the remote web server.
+#=> Manage Jenkins>Configure Globle security>Agents>Random>Save.
+#=> Go to nodes>add node> Method> Java web start>save 
+
+Note:some jenkins version dont have java web start method.
